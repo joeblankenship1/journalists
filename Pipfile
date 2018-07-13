@@ -8,6 +8,9 @@ flask = "*"
 pandas = "*"
 matplotlib = "*"
 jupyterlab = "*"
+flask-wtf = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
 
 [dev-packages]
 
