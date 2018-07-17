@@ -11,6 +11,7 @@ jupyterlab = "*"
 flask-wtf = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
+flask-restless = "*"
 
 [dev-packages]
 
