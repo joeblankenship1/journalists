@@ -12,6 +12,7 @@ flask-wtf = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
 flask-restless = "*"
+flask-cors = "*"
 
 [dev-packages]
 
