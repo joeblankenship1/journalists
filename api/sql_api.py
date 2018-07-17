@@ -6,7 +6,7 @@ from flask_cors import CORS
 
 app = flask.Flask(__name__)
 app.config['DEBUG'] = True
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data/app.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
 app.config['CORS_ALLOW_HEADERS'] = "Content-Type"
 app.config['CORS_RESOURCES'] = {r"/api/*": {"origins": "*"}}
 
