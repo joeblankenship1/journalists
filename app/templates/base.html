@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>{{ title }} - Journalist Deaths</title>
+	<meta charset="utf-8">
+    <title>{{config.APP_TITLE}} - Journalist Deaths</title>
+    <link rel="stylesheet" href="../static/css/style.css">
 </head>
 
 <body>
@@ -17,6 +19,9 @@
         {% endif %}
     {% endwith %}
     {% block content %}{% endblock %}
+
+	<script src="../static/js/app.js"></script>
+    
 </body>
 
 </html>
