@@ -1,0 +1,22 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #fefefe;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a:link {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#title {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 100;
+    top: 20px;
+}
